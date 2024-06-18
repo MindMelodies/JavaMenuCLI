@@ -66,18 +66,18 @@ class Menu {
 
     // Metodo privato per stampare una linea di testo centrato
     private void stampaLineaCentrata(String testo) {
-        int imbottitura = (larghezza - 2 - testo.length()) / 2; // Calcolo la spaziatura per centrare il testo
+        int margine = (larghezza - 2 - testo.length()) / 2; // Calcolo la spaziatura per centrare il testo
         String linea = "|";
 
         // Aggiungo spazi prima del testo per centrarlo
-        for (int i = 0; i < imbottitura; i++) {
+        for (int i = 0; i < margine; i++) {
             linea += " ";
         }
 
         linea += testo; // Aggiungo il testo
 
         // Completo la linea con spazi dopo il testo
-        for (int i = 0; i < larghezza - 2 - testo.length() - imbottitura; i++) {
+        for (int i = 0; i < larghezza - 2 - testo.length() - margine; i++) {
             linea += " ";
         }
 
