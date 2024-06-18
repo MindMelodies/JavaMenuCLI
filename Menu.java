@@ -33,7 +33,7 @@ class Menu {
         int larghezzaOpzioni = maxLunghezzaOpzione * 2 + 3;                         // Calcolo la larghezza totale necessaria per le opzioni
         int larghezzaCalcolata = Math.max(maxLunghezzaTitolo, larghezzaOpzioni);    // Determino la larghezza finale del menu confrontando il titolo e le opzioni
 
-        return Math.max(larghezzaCalcolata + 4, 20);                              // Mi assicura che la larghezza minima sia 20 per estetica
+        return Math.max(larghezzaCalcolata + 4, 20);                                // Mi assicura che la larghezza minima sia 20 per estetica
     }
 
     // Metodo pubblico per stampare il menu
