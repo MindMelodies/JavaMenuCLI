@@ -43,4 +43,4 @@ Contributi al progetto sono sempre benvenuti. Per contribuire:
 
 ## Licenza
 
-Questo progetto è rilasciato sotto la licenza MIT.
+Questo progetto è rilasciato sotto la licenza MIT. Per maggiori informazioni, consulta il file LICENSE incluso nel repository.
